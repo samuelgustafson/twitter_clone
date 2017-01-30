@@ -1,0 +1,114 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: lightgray;
+  line-height: 18px;
+}
+
+.main-login {
+  width: 540px;
+  height: 130px;
+  padding: 30px;
+  /*border: 1px solid black;*/
+  display: block;
+}
+
+.pop-up {
+  background-color: white;
+  height: 274px;
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  margin-top: -162.5px;
+  margin-left: -300px;
+  text-align: center;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(32,47,51,0.2);
+}
+
+form {
+  width: 260px;
+  height: 155px;
+  /*border: 1px solid #e1e8ed;*/
+  display: block;
+  margin-top: 0em;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+header {
+  border-bottom: 1px solid lightgray;
+  width: 570px;
+  height: 22px;
+  padding: 8px 15px;
+}
+
+h3 {
+  width: 427.5px;
+  height: 22px;
+  margin-left: 71.25px;
+  margin-right: 71.25px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #8899a6;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+input {
+  display: block;
+  margin: 5px;
+  width: 250px;
+  height: 20px;
+  border: 1px solid #e1e8ed;
+  border-radius: 3px;
+  color: #292f33;
+  padding: 4px;
+}
+
+input:first-child {
+  margin-top: 10px;
+}
+
+button {
+  display: inline-block;
+  width: 260px;
+  font-size: 16px;
+  padding: 11px 20px;
+  color: white;
+  background-color: #1da1f2;
+  border: none;
+  margin-top: 10px;
+  position: relative;
+  left: 5px;
+  line-height: normal;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+a {
+  color: #1da1f2;
+  text-decoration: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+}
+
+footer {
+  width: 570px;
+  height: 14px;
+  padding: 15px;
+  border-top: 1px solid #e2e9ee;
+}
+
+#footer-text {
+  margin: 0;
+}
