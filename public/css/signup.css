@@ -28,6 +28,7 @@ main-login {
 }
 
 .outer {
+  align-items: center;
     display: table;
     position: absolute;
     height: 100%;
